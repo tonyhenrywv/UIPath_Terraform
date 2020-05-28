@@ -33,7 +33,7 @@ Param (
     [string]$artifactFileName = "UiPathStudio.msi",
     [Parameter()]
     [ValidateSet("Yes", "No")]
-    [string]$addRobotsToExistingEnvs = "No"
+    [string]$addRobotsToExistingEnvs = "Yes"
 
 )
 #Set Error Action to Silently Continue
