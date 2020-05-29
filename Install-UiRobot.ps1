@@ -36,7 +36,7 @@ Param (
     [string]$addRobotsToExistingEnvs = "Yes"
 
 )
-Set-PSDebug -trace 2
+#Set-PSDebug -trace 2
 #Set Error Action to Silently Continue
 $ErrorActionPreference = "SilentlyContinue"
 #Script Version
