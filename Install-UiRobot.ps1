@@ -1,13 +1,13 @@
 [CmdletBinding()]
 Param (
     [Parameter(Mandatory = $true)]
-    [String] $orchestratorUrl = "https://cloud.uipath.com/ms3inlxuearu/",
+    [String] $orchestratorUrl,
     [Parameter(Mandatory = $true)]
-    [String] $Tennant = "MS3IncDefault",
+    [String] $Tennant,
     [Parameter(Mandatory = $true)]
-    [String] $orchAdmin = "tony.henry.wv@outlook.com",
+    [String] $orchAdmin,
     [Parameter(Mandatory = $true)]
-    [String] $orchPassword = "$hadowBear1",
+    [String] $orchPassword,
     [Parameter(Mandatory = $true)]
     [string] $adminUsername = "admin",
     [Parameter()]
